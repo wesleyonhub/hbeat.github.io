@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Media Query -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo e Favincon-->
+    <title>H.Beat</title>
+    <link rel="shortcut icon" href="img/H.png" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JS -->
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>
+            H.BeaT
+        </h1>
+    </header>
+
+    <!-- Main -->
+    <div class="section">
+        <div class="container">
+            <main>
+                <aside class="col col-esq">
+                    <h2>
+                        Beat Perfeito <br>
+                        Som Cristalino
+                    </h2>
+
+                    <p class="texto">
+                        A H.BeaT ofereçe o melhor Headphone para a trilha sonora da sua vida. <br>
+                        Um som potente, design elegante e uma ergonomia perfeita. <br>
+                        Escolha elevar a sua experiência com a música ao máximo!
+                    </p>
+
+                    <p class="preco">
+                        De <s>R$350</s> por <strong>R$200</strong>
+                    </p>
+
+                    <p class="textoCor">
+                        Escolha uma cor favorita
+                    </p>
+
+                    <div class="circuloCores">
+                        <span class="DimGray"
+                            onclick="imgSlider('img/HeadphoneDimGray.png'); fundoCor('#696969')"></span>
+                        <span class="DarkOliveGreen"
+                            onclick="imgSlider('img/HeadphoneDarkOliveGreen.png');  fundoCor('#556b2f')"></span>
+                        <span class="BurlyWood"
+                            onclick="imgSlider('img/HeadphoneBurlyWood.png');  fundoCor('#deb887')"></span>
+                        <span class="Brown" onclick="imgSlider('img/HeadphoneBrown.png');  fundoCor('#a52a2a')"></span>
+                    </div>
+
+                    <div class="botao">
+                        <button href="#" class="btn comprar">
+                            Comprar
+                        </button>
+                    </div>
+
+                </aside>
+
+                <aside class="col col-dir">
+                    <div class="fone">
+                        <img src="img/HeadphoneDimGray.png" alt="Headphone da H.Beat" id="phone">
+                    </div>
+                </aside>
+            </main>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="redes">
+            <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="svg/facebook.svg" alt=""></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="svg/Instagram.svg"
+                    alt=""></a>
+            <a href="https://www.twitter.com/" target="_blank"><img class="twitter" src="svg/twitter.svg" alt=""></a>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js">
+        /* Cor Fone e Cor Fundo*/
+    </script>
+
+</body>
+
+</html>
